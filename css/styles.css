@@ -65,4 +65,41 @@ margin-top: 24px;
 .input-label:not(:first-child){
     margin-top: 24px;
 }
-.button
+#password {
+    margin-bottom: 46px;
+}
+.button {
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 0 12px 0;
+    width: 290px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(105, 105, 105, 1);;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    background: #62FFB4;
+}
+.down-text{
+    font-family: 'Poppins', sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 43px;
+        display: flex;
+        align-items: center;
+}
+
+.down-text::before {
+    content: "";
+border: solid 1px #F4F4F4;
+   align-items: center;
+   width: 210px;
+   margin-left: 68px;
+   margin-right: 10px;
+}
