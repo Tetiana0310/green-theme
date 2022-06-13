@@ -56,9 +56,13 @@ backdrop-filter: blur(5px);
         padding: 0 116px 0 68px;
         margin-top: 81px;
 }
-#username {
+.input {
 border: none;
 border-bottom: solid 3px #F4F4F4;
 background-color: transparent;
 margin-top: 24px;
 }
+.input-label:not(:first-child){
+    margin-top: 24px;
+}
+.button
