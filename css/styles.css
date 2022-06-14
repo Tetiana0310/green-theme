@@ -99,7 +99,15 @@ margin-top: 24px;
     content: "";
 border: solid 1px #F4F4F4;
    align-items: center;
-   width: 210px;
+   width: 200px;
    margin-left: 68px;
    margin-right: 10px;
+}
+.down-text::after {
+    content: "";
+border: solid 1px #F4F4F4;
+   align-items: center;
+   width: 200px;
+   margin-right: 68px;
+   margin-left: 10px;
 }
