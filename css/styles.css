@@ -111,3 +111,25 @@ border: solid 1px #F4F4F4;
    margin-right: 68px;
    margin-left: 10px;
 }
+.social-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+.social-link {
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.social-link:not(:last-child) {
+    margin-left: 30px;}
+.icon {
+display: inline-block;
+}
